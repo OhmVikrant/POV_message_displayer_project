@@ -58,12 +58,21 @@ Step 5: Making the Clamp
 
 Step-6: Code..........................
 
+See the file 'Code' and also check the readme.md file thoroughly.
 
 
 
 
-REFER  to  img_(4,5,6) at the end. Here we make only a few blue LEDs blink and all the red ones glow.
+
+
+****REFER  to  img_(4,5,6) at the end. Here we make only a few blue LEDs blink and all the red ones glow.
 
 
 
+************************
 REFER TO THE VIDEO TO SEE THE FINAL PROJECT. 
+****************************
+
+
+
+			******			******			******			******
