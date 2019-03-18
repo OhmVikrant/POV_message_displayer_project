@@ -1,0 +1,69 @@
+Step 1: Materials
+	
+1. (1) Arduino Uno
+2. (3) 74HC595N shift resistors
+3. (24) Blue LEDs
+4. (24) 220 ohm resistors
+5. (1) 27 cm diameter ring
+6. (1) piece of threaded rod L:36cm dia:7.5mm
+7. (1) Ebike MY6812 120W 12V 3350rpm DC Motor
+8. (1) Flexible coupling OD:25mm*L:32mm Bore:8mm*8mm	
+9. (1) Ball bearing 8mm dia
+
+
+Step 2: Building the ring
+
+1. We bought an aluminium strip of width 3.5cm and thickness 3mm and beat that strip to make a circular one with diameter
+   27 cm approx.
+2. We drilled two holes of diameter 8mm on top and bottom of the frame. Then we drilled 29 more holes of diameter 3mm on the strip for the 
+   affixation of the LEDs, 24 on one side and 5 on the other.
+  
+Refer to img_1 in the folder images.
+
+
+Step 3: Making the circuit
+
+We made the circuit as given in the blog on breadboard first, checked it and then replicated the same on a copper board(we
+soldered the shift resistors and the wire connections within. After checking the connections this time, we made the pcb in eagle software and ordered the pcb from India Circuit. But 
+due to delay in delivery, we used the circuit on the copper perf board for affixing to the frame as described in the 
+following section.
+
+
+Step 4: Putting it all together
+
+1. We passed the rod through the frame and fixed it using four nuts.
+
+2. We soldered the LEDs with the resistors and passed those LEDs into the holes of the circular from inside. We used glue
+   for fixing the LEDs as well as for preventing the positive terminal from being short or grounded.
+
+3. Now the perf board is fixed on the rod using extensive taping. Connections are made between the ICs and the LEDs. And 
+   the Arduino is also fixed on the other side of the rod whose connections are made with the IC(primary) and the 5 LEDs.
+
+4. Bottom side of the rod is welded with a metal piece of exact dimensions that gets fitted into the motor coupler which 
+   is fixed with the motor. 
+
+5. Top side of the rod is welded with a metal piece with dimensions that fit with ball bearing in use.
+
+6. We fix a circular cardboard of the size of the frame on the side of the perf board. Refer to img_2
+
+
+
+Step 5: Making the Clamp
+
+1. The rpm of the motor is too high and the vibrations are pretty large. So we make a double L shaped steel piece and 
+   fix it to a wooden base which already has a hole through which the motor goes in and gets fixed tightly. Refer to img_3.
+
+2. For handling the vibrations we set the whole thing onto a cardboard box with dry soil filled in it.
+
+
+Step-6: Code..........................
+
+
+
+
+
+REFER  to  img_(4,5,6) at the end. Here we make only a few blue LEDs blink and all the red ones glow.
+
+
+
+REFER TO THE VIDEO TO SEE THE FINAL PROJECT. 
