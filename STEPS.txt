@@ -58,7 +58,8 @@ Step 5: Making the Clamp
 
 Step-6: Code..........................
 
-See the file 'Code' and also check the readme.md file thoroughly.
+
+check the readme.md file thoroughly.
 
 
 
