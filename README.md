@@ -1,8 +1,8 @@
 POV Globe AND Message Displayer
 (Parent project- 3D propeller Clock)
 
-(Project paricipants--  Vikrant Dey(EE-1st yr), Priyanshu Singh Somvanshi(EE-1st yr), Himanshu Badala(PI-1st yr)
-Mentor-- Archit Dangayech(EE-3rd yr)
+(Project paricipants--  Vikrant Dey (Electrical Engineering), Priyanshu Singh Somvanshi (Electrical Engineering), Himanshu Badala (Production and Industrial Engineering)
+Mentor-- Archit Dangayech (Electrical Engineering)
 IIT Roorkee)
 
 
