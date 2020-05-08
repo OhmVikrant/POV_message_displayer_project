@@ -20,6 +20,6 @@ The blog on that we followed  ( https://www.instructables.com/id/POV-Globe/  ) c
 
 Message displayer:
 To display any message we used 5 red LEDs so that they do not overlap with the globe formed by blue LEDs. Also, we attached the red LEDs on a perf board before fixing them on the ring so that the message appears straight and is not distorted due to curvature of ring.
-As far as code is concerned, the following link immensely helped us : https://maker.pro/arduino/projects/arduino-pov-display 
-The code basically creates an array for all 26 alphabets and some special characters. The array corresponding to each character contains 5 five elements which allow us to create 5X5 grid. Each element of an array has to be converted into its binary form wherein 1s will indicate the time when LED is turned on. With little effort arrays corresponding to digits can also be created.
+
+In the code, the array corresponding to each character contains 5 five elements which allow us to create 5X5 grid. Each element of an array has to be converted into its binary form wherein 1s will indicate the time when LED is turned on. With little effort arrays corresponding to digits can also be created.
 Please note that codes to display character string and pattern work fine seperately with delay function but when both codes are compiled simultaneously, desired results are not obtained due to blocking nature of the delay function. Thus, a complete code had to be written without using the delay function
